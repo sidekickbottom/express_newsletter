@@ -19,7 +19,7 @@ console.log(firstName,lastName,email);
 get.
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("server started on port 3000");
 });
 //d96d56fd492c15c28e2d81f3865dd8db-us18
